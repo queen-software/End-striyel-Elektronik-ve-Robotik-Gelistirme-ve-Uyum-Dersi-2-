@@ -252,12 +252,12 @@ int main(int argc, char** argv) {
   
      int  number = 66;
      
-  if (number % 2 ==0) {
+  	if (number % 2 ==0) {
   	cout<<"cift";
 
-  }else{
-  	cout<<"tek";
-  }
+	  }else{
+	  	cout<<"tek";
+	  }
   
   
   
