@@ -219,7 +219,7 @@ int main(int argc, char** argv) {
 <img width="1594" height="935" alt="image" src="https://github.com/user-attachments/assets/9f0b514e-e864-4f24-97f1-3a368c99868e" />
 
 
-##  //Karar mekanizmaları
+## Karar mekanizmaları
 
 
   // Eğer yaş 18 den büyükse ve bütççe 500k dan fazlaise ehliyet alınabilir.
