@@ -225,15 +225,10 @@ int main(int argc, char** argv) {
   
   int age = 19;
   int budget =5000000;
-  
-  
   if (age  >=18 && budget>500000){
-  	
   	cout<<"Ehliyet alabilirsiniz."<<endl;
-  	
   }else{
   		cout<<"Ehliyet alamazsiniz."<<endl;
-  		
   }
 
 
