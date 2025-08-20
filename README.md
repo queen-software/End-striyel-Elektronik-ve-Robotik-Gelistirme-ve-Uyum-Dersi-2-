@@ -221,7 +221,7 @@ int main(int argc, char** argv) {
 
 ## Karar mekanizmaları
 
-
+### Ehliyet alınabilir mi projesi:
   // Eğer yaş 18 den büyükse ve bütççe 500k dan fazlaise ehliyet alınabilir.Aksi taktirde ehliyet alınamaz.
   
 	  int age = 19;
@@ -233,9 +233,34 @@ int main(int argc, char** argv) {
 	  }
 
 
-## 
 
+### Sayı pozitif mi? negatif mi ? 0 mı?
+		int  number = -65;
+   
+	   if (number > 0){
+	   		cout<<"Sayi pozitiftir."<<endl;
+	   }
+	   else if (number ==0 ){
+	   	cout<<"Sayi 0dir."<<endl;
+	   	
+	   }else{
+	   	cout<<"sayi negatiftir."<<endl;
+	   }
+###  Tek çift sayı bulma
 
+	  // number sayısı tek mi çift mi bulalım
+  
+     int  number = 66;
+     
+  if (number % 2 ==0) {
+  	cout<<"cift";
+
+  }else{
+  	cout<<"tek";
+  }
+  
+  
+  
 
 
 
