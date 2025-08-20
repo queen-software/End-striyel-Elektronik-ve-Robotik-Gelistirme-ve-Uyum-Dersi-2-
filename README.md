@@ -8,6 +8,7 @@
       int main(int argc, char** argv) {
       	
       	cout<<25+36<<endl;
+	   
       	cout<<65-250<<endl;
       	
       	
