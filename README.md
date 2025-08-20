@@ -220,7 +220,9 @@ int main(int argc, char** argv) {
 
 
 ##  //Karar mekanizmaları
-// Eğer yaş 18 den büyükse ve bütççe 500k dan fazlaise ehliyet alınabilir.
+
+
+  // Eğer yaş 18 den büyükse ve bütççe 500k dan fazlaise ehliyet alınabilir.
   //Aksi taktirde ehliyet alınamaz.
   
   int age = 19;
