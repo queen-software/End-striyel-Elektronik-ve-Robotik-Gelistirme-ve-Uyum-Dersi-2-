@@ -222,16 +222,15 @@ int main(int argc, char** argv) {
 ## Karar mekanizmaları
 
 
-  // Eğer yaş 18 den büyükse ve bütççe 500k dan fazlaise ehliyet alınabilir.
-  //Aksi taktirde ehliyet alınamaz.
+  // Eğer yaş 18 den büyükse ve bütççe 500k dan fazlaise ehliyet alınabilir.Aksi taktirde ehliyet alınamaz.
   
-  int age = 19;
-  int budget =5000000;
-  if (age  >=18 && budget>500000){
-  	cout<<"Ehliyet alabilirsiniz."<<endl;
-  }else{
-  		cout<<"Ehliyet alamazsiniz."<<endl;
-  }
+	  int age = 19;
+	  int budget =5000000;
+	  if (age  >=18 && budget>500000){
+	  	cout<<"Ehliyet alabilirsiniz."<<endl;
+	  }else{
+	  		cout<<"Ehliyet alamazsiniz."<<endl;
+	  }
 
 
 ## 
