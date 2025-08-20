@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
 	 cout<<metin<<endl; 
 
   -çıktı olarak queensoftware gelecek
-  <img width="813" height="1028" alt="image" src="https://github.com/user-attachments/assets/3df0f37d-5053-4c2a-9546-47748f6975aa" />
+ --------- <img width="813" height="1028" alt="image" src="https://github.com/user-attachments/assets/3df0f37d-5053-4c2a-9546-47748f6975aa" />
 
 	
 	//Mantıksal Operatorler
@@ -53,8 +53,31 @@ int main(int argc, char** argv) {
 	
   
 
+***
+	
+	//Mantıksal Operatorler
+	//  || Or(veya)
+	// &&  AND (Ve) 
+	
+	cout <<"Mantiksal Operatorler"<<endl;
+	
+	   
+	 bool a1 =  (25 <35) && (45 ==45);
+	 //          1        ve     1    =1 
+	 
+	bool a2 = 45 <25 || 35 >96;
+	//           0  veya  0 = 0
+	
+	bool a3 = 74 >= 75 || 45>=-54;	
+	 //        0       veya  1 = 1      
+	 
+	cout<<a1<<endl;
+	cout<<a2<<endl;
+	cout<<a3<<endl;
+-------- <img width="1913" height="1017" alt="image" src="https://github.com/user-attachments/assets/a1fe5fe5-5da0-404e-a68d-bf8ca8cca568" />
 
-
+	
+	   
 
 
 
