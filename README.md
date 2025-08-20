@@ -1,6 +1,6 @@
 # End-striyel-Elektronik-ve-Robotik-Gelistirme-ve-Uyum-Dersi-2- DEV C++
 ## 	//Aritmetik operatörler  Kodları
- ---- <img width="1792" height="995" alt="image" src="https://github.com/user-attachments/assets/0324af41-16da-4178-8728-631b330f7efe" />
+  <img width="1792" height="995" alt="image" src="https://github.com/user-attachments/assets/0324af41-16da-4178-8728-631b330f7efe" />
 **    #include <iostream>
       
       using namespace std;
@@ -14,7 +14,7 @@
       	
 	
 }
------   <img width="1011" height="743" alt="image" src="https://github.com/user-attachments/assets/25787f9b-0a8b-400b-9233-02b733cb3207" />
+  <img width="1011" height="743" alt="image" src="https://github.com/user-attachments/assets/25787f9b-0a8b-400b-9233-02b733cb3207" />
 
 **  #include <iostream>
 
@@ -45,7 +45,7 @@ int main(int argc, char** argv) {
 	 cout<<metin<<endl; 
 
   -çıktı olarak queensoftware gelecek
- --------- <img width="813" height="1028" alt="image" src="https://github.com/user-attachments/assets/3df0f37d-5053-4c2a-9546-47748f6975aa" />
+  <img width="813" height="1028" alt="image" src="https://github.com/user-attachments/assets/3df0f37d-5053-4c2a-9546-47748f6975aa" />
 
 	
 ##	//Mantıksal Operatorler
@@ -75,7 +75,7 @@ int main(int argc, char** argv) {
 	cout<<a1<<endl;
 	cout<<a2<<endl;
 	cout<<a3<<endl;
--------- <img width="1913" height="1017" alt="image" src="https://github.com/user-attachments/assets/a1fe5fe5-5da0-404e-a68d-bf8ca8cca568" />
+ <img width="1913" height="1017" alt="image" src="https://github.com/user-attachments/assets/a1fe5fe5-5da0-404e-a68d-bf8ca8cca568" />
 
 	
 	   
@@ -165,6 +165,102 @@ int main(int argc, char** argv) {
 	
 	cout<<"Dersin adi : "<<lesson<<" Ortalamasi : "<<ortalama<<endl;
 }
+
+
+
+<img width="1798" height="894" alt="image" src="https://github.com/user-attachments/assets/e05ab3a9-a3ac-4c79-b1ad-c82c4d0a4793" />
+
+
+### Vücut kitle endeksi hesaplama :
+
+	//AD ,soyad,kilo  ,boy    vki = kilo(kg) / boy*boy (m)
+	int main(int argc, char** argv) {
+
+
+ 	string ad;
+    string soyad;
+    double kilo ;
+    double boy;
+    
+    cout<<"Lutfen adinizi giriniz "<<endl;
+    cin>> ad;
+    
+	cout<<"Lutfen soyad giriniz "<<endl;
+    cin>> soyad;
+    
+    cout<<"Lutfen kilo giriniz "<<endl;
+    cin>> kilo;
+    
+     cout<<"Lutfen boy giriniz "<<endl;
+    cin>> boy;
+    
+    
+    
+    
+    
+     double vki = kilo / (boy * boy);
+
+    cout<< "\n--- Sonuc ---" <<endl;
+    cout<< "Ad Soyad: " << ad << " " << soyad <<endl;
+    cout<< "Vucut Kitle Endeksiniz: " << vki <<endl;
+
+    if (vki < 18.5) {
+        cout << "Durum: Zayif"<<endl;
+    } else if (vki >= 18.5 && vki < 24.9) {
+       cout << "Durum: Normal" << endl;
+    } else if (vki >= 24.9 && vki < 29.9) {
+      cout << "Durum: Kilolu" <<endl;
+    } else {
+    cout << "Durum: Obez" <<endl;
+    }
+
+    return 0;
+    
+<img width="1594" height="935" alt="image" src="https://github.com/user-attachments/assets/9f0b514e-e864-4f24-97f1-3a368c99868e" />
+
+
+##  //Karar mekanizmaları
+// Eğer yaş 18 den büyükse ve bütççe 500k dan fazlaise ehliyet alınabilir.
+  //Aksi taktirde ehliyet alınamaz.
+  
+  int age = 19;
+  int budget =5000000;
+  
+  
+  if (age  >=18 && budget>500000){
+  	
+  	cout<<"Ehliyet alabilirsiniz."<<endl;
+  	
+  }else{
+  		cout<<"Ehliyet alamazsiniz."<<endl;
+  		
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
